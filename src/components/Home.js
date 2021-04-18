@@ -14,7 +14,7 @@ class Home extends Component {
             <h1>
                 Estas en home
             </h1>
-            <Link to="/GithubProfiles" className="button">GithubProfiles</Link>
+            <Link to="/combineReducersTest/GithubProfiles" className="button">GithubProfiles</Link>
         </div>
       )
   }
