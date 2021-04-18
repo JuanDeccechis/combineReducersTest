@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/combineReducersTest/index/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/combineReducersTest/index/static/js/main.75ceb3e8.chunk.js",
-    "main.js.map": "/combineReducersTest/index/static/js/main.75ceb3e8.chunk.js.map",
-    "runtime-main.js": "/combineReducersTest/index/static/js/runtime-main.37860443.js",
-    "runtime-main.js.map": "/combineReducersTest/index/static/js/runtime-main.37860443.js.map",
-    "static/js/2.c163d3ee.chunk.js": "/combineReducersTest/index/static/js/2.c163d3ee.chunk.js",
-    "static/js/2.c163d3ee.chunk.js.map": "/combineReducersTest/index/static/js/2.c163d3ee.chunk.js.map",
-    "static/js/3.703ecb6c.chunk.js": "/combineReducersTest/index/static/js/3.703ecb6c.chunk.js",
-    "static/js/3.703ecb6c.chunk.js.map": "/combineReducersTest/index/static/js/3.703ecb6c.chunk.js.map",
-    "index.html": "/combineReducersTest/index/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/combineReducersTest/index/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.c163d3ee.chunk.js.LICENSE.txt": "/combineReducersTest/index/static/js/2.c163d3ee.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/combineReducersTest/index/static/media/logo.6ce24c58.svg"
+    "main.css": "/combineReducersTest/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/combineReducersTest/static/js/main.a6367b0f.chunk.js",
+    "main.js.map": "/combineReducersTest/static/js/main.a6367b0f.chunk.js.map",
+    "runtime-main.js": "/combineReducersTest/static/js/runtime-main.c7d20b55.js",
+    "runtime-main.js.map": "/combineReducersTest/static/js/runtime-main.c7d20b55.js.map",
+    "static/js/2.e362b07c.chunk.js": "/combineReducersTest/static/js/2.e362b07c.chunk.js",
+    "static/js/2.e362b07c.chunk.js.map": "/combineReducersTest/static/js/2.e362b07c.chunk.js.map",
+    "static/js/3.4928f167.chunk.js": "/combineReducersTest/static/js/3.4928f167.chunk.js",
+    "static/js/3.4928f167.chunk.js.map": "/combineReducersTest/static/js/3.4928f167.chunk.js.map",
+    "index.html": "/combineReducersTest/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/combineReducersTest/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.e362b07c.chunk.js.LICENSE.txt": "/combineReducersTest/static/js/2.e362b07c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.37860443.js",
-    "static/js/2.c163d3ee.chunk.js",
+    "static/js/runtime-main.c7d20b55.js",
+    "static/js/2.e362b07c.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.75ceb3e8.chunk.js"
+    "static/js/main.a6367b0f.chunk.js"
   ]
 }
