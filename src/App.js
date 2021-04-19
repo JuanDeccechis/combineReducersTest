@@ -22,7 +22,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/combineReducersTest/" component={Home}></Route>
             <Route path="/combineReducersTest/githubProfiles" component={GithubProfiles}></Route>
-            <Route path="/combineReducersTest/logout" render={() => <Logout onLogout={this.props.onLogout}/>}></Route>
+            <Route path="/combineReducersTest/logout" render={() => <Logout />}></Route>
             <Route component={NotFound}></Route>
           </Switch>
         </BrowserRouter>

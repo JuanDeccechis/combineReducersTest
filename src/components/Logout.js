@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { logout } from "../actions";
 
 class Logout extends Component {
   constructor(props) {
@@ -13,10 +15,18 @@ class Logout extends Component {
             <h1>
                 Logout
             </h1>
-            <button onClick={this.props.onLogout}>Logout</button>
+            <button onClick={this.props.handleLogoutDispatch}>Logout</button>
         </div>
       )
   }
 }
 
-export default Logout;
+const mapDispatchToProps = dispatch => {
+  return {
+    handleLogoutDispatch: () => {
+      return dispatch(logout());
+    },
+  };
+}
+
+export default connect(null, mapDispatchToProps) (Logout);

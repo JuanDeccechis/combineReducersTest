@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import ToDosReducer from './ToDosReducer'
+import toDosReducer from './toDosReducer'
 import authenticationReducer from './authenticationReducer'
 
 const rootReducer = combineReducers({
   authenticationReducer,
-  ToDosReducer, 
+  toDosReducer, 
 })
 
 // Lo anterior es lo mismo que esto:

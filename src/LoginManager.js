@@ -1,26 +1,31 @@
 import React, { Component } from "react";
 import App from './App'
 import "./App.css";
+import { connect } from "react-redux";
+import { login } from "./actions";
 
 class LoginManager extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            logged: false,
+            username: '',
+            pass: ''
         }
         this.handleLogin = this.handleLogin.bind(this);
-        this.handleLogout = this.handleLogout.bind(this);
         this.handleChangeInputValue = this.handleChangeInputValue.bind(this);
     }
 
     handleLogin(event) {
         event.preventDefault();
-        console.log(this.state.age);
-        this.setState({ logged: true });
-    }
+        if(this.state.pass != '' && this.state.username != '') {
+            this.props.handleLoginDispatch(this.state.username, this.state.pass);
+          }
+        else {
+            alert('You need to complete the information');
+            console.log(this.state.pass);
+            console.log(this.state.username);
+        }
 
-    handleLogout() {
-        this.setState({ logged: false });
     }
 
     handleChangeInputValue(event) {
@@ -29,18 +34,16 @@ class LoginManager extends Component {
     }
 
     render() {
+        const { stateLoggedIn } = this.props;
         return (
             <div className="container">
                 <p>Bienvenido</p>
-                {this.state.logged ?
-                    <div>
-                        <button onClick={this.handleLogout}>Logout</button>
-                        <App onLogout={this.handleLogout} user={this.state.name} age={this.state.age} />
-                    </div>
+                {stateLoggedIn ?
+                    <App />
                     :
                     <div>
-                        <input id="name" name="name" placeholder="nombre" value={this.state.name} onChange={this.handleChangeInputValue} />
-                        <input id="age" name="age" placeholder="edad" value={this.state.age} onChange={this.handleChangeInputValue} />
+                        <input id="username" name="username" placeholder="nombre" value={this.state.username} onChange={this.handleChangeInputValue} />
+                        <input id="pass" name="pass" placeholder="edad" value={this.state.pass} onChange={this.handleChangeInputValue} />
                         <button onClick={this.handleLogin}>Login</button>
                     </div>
                 }
@@ -50,4 +53,18 @@ class LoginManager extends Component {
     }
 }
 
-export default LoginManager;
+const mapStateToProps = state => {
+    return {
+        stateLoggedIn: state.authenticationReducer.isLoggedIn
+    }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+      handleLoginDispatch: (username, pass) => {
+        return dispatch(login(username, pass));
+      },
+    };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(LoginManager);

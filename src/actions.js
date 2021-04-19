@@ -13,10 +13,10 @@ export const types = {
     };
   };
   
-  export const login = (username, age) => {
+  export const login = (username, pass) => {
     return {
     type: types.LOGIN,
-    payload: {username, age}
+    payload: {username, pass}
     };
   };
   

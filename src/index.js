@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import LoginManager from './LoginManager';
 import reportWebVitals from './reportWebVitals';
+import registerServiceWorker from "./registerServiceWorker";
 
 import { createStore } from "redux";
 import { Provider } from "react-redux";
