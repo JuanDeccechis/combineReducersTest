@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/combineReducersTest/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/combineReducersTest/static/js/main.748db25c.chunk.js",
-    "main.js.map": "/combineReducersTest/static/js/main.748db25c.chunk.js.map",
-    "runtime-main.js": "/combineReducersTest/static/js/runtime-main.f91cfdfe.js",
-    "runtime-main.js.map": "/combineReducersTest/static/js/runtime-main.f91cfdfe.js.map",
-    "static/js/2.f7f3c45e.chunk.js": "/combineReducersTest/static/js/2.f7f3c45e.chunk.js",
-    "static/js/2.f7f3c45e.chunk.js.map": "/combineReducersTest/static/js/2.f7f3c45e.chunk.js.map",
-    "static/js/3.ee247579.chunk.js": "/combineReducersTest/static/js/3.ee247579.chunk.js",
-    "static/js/3.ee247579.chunk.js.map": "/combineReducersTest/static/js/3.ee247579.chunk.js.map",
+    "main.css": "/combineReducersTest/static/css/main.a0f92c83.chunk.css",
+    "main.js": "/combineReducersTest/static/js/main.ec9cbfc0.chunk.js",
+    "main.js.map": "/combineReducersTest/static/js/main.ec9cbfc0.chunk.js.map",
+    "runtime-main.js": "/combineReducersTest/static/js/runtime-main.6784a6cb.js",
+    "runtime-main.js.map": "/combineReducersTest/static/js/runtime-main.6784a6cb.js.map",
+    "static/js/2.0d120394.chunk.js": "/combineReducersTest/static/js/2.0d120394.chunk.js",
+    "static/js/2.0d120394.chunk.js.map": "/combineReducersTest/static/js/2.0d120394.chunk.js.map",
+    "static/js/3.0ce2c550.chunk.js": "/combineReducersTest/static/js/3.0ce2c550.chunk.js",
+    "static/js/3.0ce2c550.chunk.js.map": "/combineReducersTest/static/js/3.0ce2c550.chunk.js.map",
     "index.html": "/combineReducersTest/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/combineReducersTest/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.f7f3c45e.chunk.js.LICENSE.txt": "/combineReducersTest/static/js/2.f7f3c45e.chunk.js.LICENSE.txt"
+    "static/css/main.a0f92c83.chunk.css.map": "/combineReducersTest/static/css/main.a0f92c83.chunk.css.map",
+    "static/js/2.0d120394.chunk.js.LICENSE.txt": "/combineReducersTest/static/js/2.0d120394.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f91cfdfe.js",
-    "static/js/2.f7f3c45e.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.748db25c.chunk.js"
+    "static/js/runtime-main.6784a6cb.js",
+    "static/js/2.0d120394.chunk.js",
+    "static/css/main.a0f92c83.chunk.css",
+    "static/js/main.ec9cbfc0.chunk.js"
   ]
 }
