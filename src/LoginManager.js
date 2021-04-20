@@ -4,6 +4,7 @@ import "./App.css";
 import { connect } from "react-redux";
 import { login } from "./actions";
 
+
 class LoginManager extends Component {
     constructor(props) {
         super(props);
@@ -15,9 +16,25 @@ class LoginManager extends Component {
         this.handleChangeInputValue = this.handleChangeInputValue.bind(this);
     }
 
+    componentWillMount() {
+        
+    }
+
     handleLogin(event) {
         event.preventDefault();
         if(this.state.pass != '' && this.state.username != '') {
+        /*    //encriptar la pass
+            let key = {
+                publicKey: "public",
+                privateKey: "private"
+            }
+            
+            //let encryptedPass = this.state.pass + key.privateKey;
+            
+            
+            let encryptedPass = window.btoa(this.state.pass);
+            */
+            
             this.props.handleLoginDispatch(this.state.username, this.state.pass);
           }
         else {
